@@ -2,12 +2,12 @@
 
 *Thesis for the exam "Electronic Computers and Networks", UNIVPM*
 
-DockerizedFlaskDB is a collection of two projects that let interact a Python [Flask](https://flask.palletsprojects.com/en/2.0.x/) application with a database ([MySQL](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/)) in a Dockerized environment. The Flask and the DB are into two different containers that are linked together with [Docker-Compose](https://docs.docker.com/compose/). The Flask app consists in a REST API that through the [routes](#application-routes) let you:
+DockerizedFlaskDB is a collection of two projects that let interact a Python [Flask](https://flask.palletsprojects.com/en/2.0.x/) application with a database ([MySQL](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/)) in a Dockerized environment. The Flask app and the DB are into two different containers that are linked together with [Docker-Compose](https://docs.docker.com/compose/). The Flask app consists in a REST API that through the [routes](#application-routes) let you:
 
-- Get all the students
-- Add a student
-- Remove a student with a certain id
-- Remove all the students
+- Get all the students from the DB
+- Add a student in the DB
+- Remove a student with a certain id in the DB
+- Remove all the students in the DB
 
 
 # Table of contents
