@@ -1,0 +1,18 @@
+version: "3"
+services:
+  app:
+    build: ./app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app/:/home/app/
+    links:
+      - db
+  db:
+    image: postgres:10
+    environment:
+      POSTGRES_USER: alessio
+      POSTGRES_PASSWORD: paolucci
+      POSTGRES_DB: projcer
+    expose:
+      - 5432
