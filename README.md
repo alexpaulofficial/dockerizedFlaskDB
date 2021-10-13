@@ -12,7 +12,7 @@ DockerizedFlaskDB is a collection of two projects that let interact a Python [Fl
 
 # Table of contents
 
-- [DB Model (Student)](db-model-student)
+- [DB Model (Student)](#db-model-student)
 - [Application Routes](#application-routes)
 - [Differences between the two sub-projects](#differences-between-the-two-sub-projects)
 - [Wiki](https://github.com/alexpaulofficial/dockerizedFlaskDB/wiki)
