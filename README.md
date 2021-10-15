@@ -47,12 +47,7 @@ It adds a student in the DB from a JSON given in the body request with this form
     "address": "string"
 }
 ```
-
-> **GET**  /deleteAll
-
-It deletes all the students in the DB (with a TRUNCATE query)
-
-> **POST** /studentDelete
+> **DELETE** /student
 
 It deletes the student in the DB with the "id" given in the body of the request with this JSON format:
 
@@ -62,6 +57,11 @@ It deletes the student in the DB with the "id" given in the body of the request 
 }
 ```
 If the given id doesn't exist, the response will be "ID incorrect"
+
+> **GET**  /deleteAll
+
+It deletes all the students in the DB (with a TRUNCATE query)
+
 
 # Differences between the two sub-projects
 
