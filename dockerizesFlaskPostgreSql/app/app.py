@@ -110,7 +110,7 @@ def add_student():
 
     return resp
 
-@app.route('/studentDelete', methods = ['POST'])
+@app.route('/student', methods = ['DELETE'])
 def delete_student():
     data = request.get_json()
     engine = create_engine('postgresql+psycopg2://{user}:{passwd}@{host}:{port}/{db}'.format(

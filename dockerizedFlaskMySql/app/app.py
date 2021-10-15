@@ -66,7 +66,7 @@ def add_student():
 
     return resp
 
-@app.route('/studentDelete', methods = ['POST'])
+@app.route('/student', methods = ['DELETE'])
 def delete_student():
     try:
         data = request.get_json()
